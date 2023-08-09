@@ -1,0 +1,5 @@
+INSERT INTO users (username, password, email, first_name, last_name	, role, specialty) VALUES ('jd', '1111', 'jd@d.com', 'John', 'Doe', 'DOCTOR', 'Dentist')
+INSERT INTO users (username, password, email, first_name, last_name	, role, specialty) VALUES ('ap', '1111', 'ap@d.com', 'Ann', 'Pesci', 'DOCTOR', 'Dermatologist')
+INSERT INTO users (username, password, email, first_name, last_name	, role, specialty) VALUES ('vo', '1111', 'vo@d.com', 'Vivan', 'Oak', 'DOCTOR', 'Surgeon')
+INSERT INTO users (username, password, email, first_name, last_name	, role, specialty) VALUES ('admin', '1111', 'admin@d.com', 'Admin', 'Admin', 'ADMIN', '')
+INSERT INTO users (username, password, email, first_name, last_name	, role, specialty) VALUES ('mk', '1111', 'mk@anymail.xq', 'Mile', 'Kain', 'USER', '')

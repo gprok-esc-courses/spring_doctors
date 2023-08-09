@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctors</title>
+</head>
+<body>
+    <h1>Doctors</h1>
+
+    <div th:each="doctor : ${doctors}">
+        <span th:text="${doctor.getLastName()}">Last Name</span> <span th:text="${doctor.getSpecialty()}">Specialty</span>
+    </div>
+</body>
+</html>
