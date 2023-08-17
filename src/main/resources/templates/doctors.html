@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
 <head>
     <meta charset="UTF-8">
     <title>Doctors</title>
 </head>
 <body>
+<section>
     <h1>Doctors</h1>
 
     <div th:each="doctor : ${doctors}">
         <span th:text="${doctor.getLastName()}">Last Name</span> <span th:text="${doctor.getSpecialty()}">Specialty</span>
     </div>
+</section>
 </body>
 </html>

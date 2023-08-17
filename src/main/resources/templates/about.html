@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<section>
   <h1>About Us</h1>
 
   <h2>Our Key Products:</h2>
@@ -12,5 +13,6 @@
   <div th:each="product : ${products}">
     <span th:text="${product}">Product Name</span>
   </div>
+</section>
 </body>
 </html>
