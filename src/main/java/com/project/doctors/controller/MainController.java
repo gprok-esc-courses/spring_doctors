@@ -34,4 +34,19 @@ public class MainController {
         return "doctors";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/logout")
+    public String logout() {
+        return "logout";
+    }
+
+    @GetMapping("/user/profile")
+    public String profile() {
+        return "profile";
+    }
+
 }
